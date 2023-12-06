@@ -3,3 +3,54 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+ text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: gray;
+  text-align: center;
+  margin: 3px;
+}
+.picture-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.picture {
+  width: 900px;
+}
+.caption {
+  text-align: center;
+  font-size: small;
+}
+.paragraph-container{
+  display: flex;
+  justify-content: center;
+}
+.paragraph {
+  width: 800px;
+  }
+p{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.links-info {
+  background-color: red;
+  flex: 1;
+
+}
+.links-info h3 {
+text-align: center;
+}
